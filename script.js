@@ -1,6 +1,10 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Initialize the application after the DOM is fully loaded
-    initializeApp();
+    try {
+        initializeApp();
+    } catch (error) {
+        console.error('Error initializing app:', error);
+    }
 });
 
 function initializeApp() {
