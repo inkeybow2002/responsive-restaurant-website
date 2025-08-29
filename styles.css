@@ -1,12 +1,17 @@
+/* Reset default margin */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
+
+/* Header styles */
 header {
     background-color: #333;
     color: white;
     padding: 1rem;
 }
+
+/* Navigation styles */
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -19,6 +24,8 @@ nav ul li a {
     color: white;
     text-decoration: none;
 }
+
+/* Main content styles */
 main {
     padding: 20px;
 }
@@ -27,11 +34,15 @@ main {
     border: 1px solid #ddd;
     padding: 10px;
 }
+
+/* Footer styles */
 footer {
     text-align: center;
     padding: 1rem;
     background-color: #f1f1f1;
 }
+
+/* Form styles */
 form {
     display: flex;
     flex-direction: column;
